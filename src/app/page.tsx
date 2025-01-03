@@ -11,7 +11,7 @@ export default function Home() {
         <section className="container mx-auto px-4 pt-32 lg:pt-40">
           <div className="grid lg:grid-cols-2 gap-8 items-center">
             <div className="space-y-8">
-              <h1 className="text-6xl lg:text-9xl font-bold tracking-tighter text-gradient">
+              <h1 className="text-5xl lg:text-9xl font-bold tracking-tighter text-gradient">
                 UNLOCK YOUR
                 <br />
                 POTENTIAL

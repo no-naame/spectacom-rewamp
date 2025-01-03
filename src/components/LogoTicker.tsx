@@ -2,19 +2,13 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import Acme from "../../public/logo-Acme.png"
-import Quantum from "../../public/logo-quantum.png"
-import Echo from "../../public/logo-echo.png"
-import Celestial from "../../public/logo-celestial.png"
-import Pulse from "../../public/logo-pulse.png"
-import Apex from "../../public/logo-apex.png"
 const logos = [
-    { name: "acme", url: Acme },
-    { name: "quantum", url: Quantum },
-    { name: "echo", url: Echo },
-    { name: "celestial", url: Celestial },
-    { name: "pulse", url: Pulse },
-    { name: "apex", url: Apex },
+    { name: "acme", url: "/logo-Acme.png" },
+    { name: "quantum", url: "/logo-quantum.png" },
+    { name: "echo", url: "/logo-echo.png" },
+    { name: "celestial", url: "/logo-celestial.png" },
+    { name: "pulse", url: "/logo-pulse.png" },
+    { name: "apex", url: "/logo-apex.png" },
 ];
 
 export const LogoTicker = () => {
