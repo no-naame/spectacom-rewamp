@@ -2,12 +2,12 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import Acme from "@/../public/logo-Acme.png"
-import Quantum from "@/../public/logo-quantum.png"
-import Echo from "@/../public/logo-echo.png"
-import Celestial from "@/../public/logo-celestial.png"
-import Pulse from "@/../public/logo-pulse.png"
-import Apex from "@/../public/logo-apex.png"
+import Acme from "../../public/logo-Acme.png"
+import Quantum from "../../public/logo-quantum.png"
+import Echo from "../../public/logo-echo.png"
+import Celestial from "../../public/logo-celestial.png"
+import Pulse from "../../public/logo-pulse.png"
+import Apex from "../../public/logo-apex.png"
 const logos = [
     { name: "acme", url: Acme },
     { name: "quantum", url: Quantum },
